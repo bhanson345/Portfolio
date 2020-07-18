@@ -1,12 +1,13 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  font-size: 19px;
 }
 
 h1 {
   color: #006a71;
   font-family: "Marck Script", cursive;
-  font-size: 80px;
+  font-size: 4.444rem;
   font-weight: 300;
 }
 h2 {
@@ -17,6 +18,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #01929c;
 }
+
 .top-container {
   background-color: #cbeaed;
   text-align: center;
@@ -25,7 +27,7 @@ h3 {
 }
 .top-container p {
   color: #006a71;
-  font-size: 30px;
+  font-size: 1.667rem;
   font-weight: 300;
 }
 
@@ -34,21 +36,42 @@ h3 {
 }
 .middle-container {
   text-align: center;
+
+  padding: 50px 0px 0px 0px;
 }
 .middle-container img {
-  width: 10%;
-  margin-top: 20px;
+  width: 10rem;
+  margin-top: 50px;
 }
 .middle-container span {
   font-weight: 600;
 }
+
 .bottom-container {
   text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffdd;
+}
+.bottom-container p {
+  margin-bottom: 0;
 }
 .top-cloud {
   position: relative;
   left: 250px;
 }
 .bottom-cloud {
-  position: absolute;
+  position: relative;
+  right: 200px;
+}
+
+.skills {
+  padding-top: 20px;
+}
+.skills img {
+  width: 10rem;
+}
+.skill-row {
+  width: 50%;
 }
