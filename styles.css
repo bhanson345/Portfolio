@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #006a71;
+  color: #ffffff;
   font-family: "Marck Script", cursive;
   font-size: 4.444rem;
   font-weight: 300;
@@ -20,13 +20,12 @@ h3 {
 }
 
 .top-container {
-  background-color: #cbeaed;
+  background-image: url("images/Social Distancing.jpg");
   text-align: center;
   position: relative;
-  padding-top: 100px;
 }
 .top-container p {
-  color: #006a71;
+  color: #ffffff;
   font-size: 1.667rem;
   font-weight: 300;
 }
@@ -37,11 +36,10 @@ h3 {
 .middle-container {
   text-align: center;
 
-  padding: 20px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 .middle-container img {
   width: 10rem;
-  margin-top: 20px;
 }
 .middle-container span {
   font-weight: 600;
@@ -49,21 +47,16 @@ h3 {
 
 .bottom-container {
   text-align: center;
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #ffffdd;
+  padding: 20px 0px 20px 0px;
 }
-.bottom-container p {
-  margin-bottom: 0;
-}
+
 .top-cloud {
   position: relative;
   left: 250px;
 }
 .bottom-cloud {
   position: relative;
-  right: 200px;
+  right: 280px;
 }
 
 .skills {
@@ -72,6 +65,18 @@ h3 {
 .skills img {
   width: 10rem;
 }
-.skill-row {
+.skill-row1 {
   width: 50%;
+  margin: auto;
+  float: right;
+}
+.skill-row2 {
+  width: 50%;
+  margin: auto;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.design p {
+  margin-bottom: 200px;
 }
