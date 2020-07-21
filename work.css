@@ -7,9 +7,10 @@ body {
 
 h1 {
     color: #42224e;
-    font-family: "Marck Script", cursive;
+    font-family: "Montserrat", sans-serif;
     font-size: 4.444rem;
     font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -51,6 +52,26 @@ a {
     padding-top: 10%;
 }
 
+/* Work Section */
+
+#work {
+    text-align: center;
+    margin-top: 8rem;
+    padding: 0 2% 0 2%;
+}
+
+
+
+#work h3 {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.work-card {
+    padding: 1%;
+
+}
 
 
 
