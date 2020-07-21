@@ -1,0 +1,97 @@
+body {
+    color: #4e4e4e;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 19px;
+}
+
+h1 {
+    color: #42224e;
+    font-family: "Marck Script", cursive;
+    font-size: 4.444rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #42224e;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #6f4280;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #6f4280;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Navbar */
+.nav-item {
+    padding: .5rem;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+
+/* Coming Soon */
+
+#comingsoon {
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.btn {
+    border: 1px solid #6f4280;
+    color: #ffffff;
+    background-color: #6f4280;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    border: 1px solid #6f4280;
+    color: #ffffff;
+    background-color: #42224e;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer-link {
+    padding: 0 8px 0 8px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #6f4280;
+}
+
+/* Media Queries */
+@media(max-width:1000px) {
+    .nav-item {
+        padding: 0;
+    }
+}

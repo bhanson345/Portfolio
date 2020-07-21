@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Marck+Script&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <title>Brett Hanson</title>
-  </head>
-  <body>
-    
-    <div class="top-container">
-        <div class="header">
-            <ul>
-              <li>
-                About
-              </li>
-              <li>
-                Work
-              </li>
-              <li>
-                Contact
-              </li>
-            </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Marck+Script&family=Montserrat&display=swap"
+    rel="stylesheet" />
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <title>Brett Hanson</title>
+</head>
+
+<body>
+
+
+
+  <section id="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">About<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact<span class="sr-only"></span></a>
+          </li>
+
+        </ul>
+    </div>
+    </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="intro">
       <h1><span>B</span>rett <span>H</span>anson</h1>
       <p>a web developer.</p>
     </div>
-    <div class="middle-container">
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container-fluid">
       <div class="profile">
         <img src="images/portrait.png" alt=" image of Brett Hanson" />
         <p>
@@ -38,41 +60,61 @@
           <span>creates solutions to your problems.</span>
         </p>
       </div>
-
-      <div class="skills">
-        <h2>What I can do for you.</h2>
-        <div class="skill-row1">
-          <img
-            class="design"
-            src="images/blueprint.png"
-            alt="blueprint-image"
-          />
+      <h2>What I can do for you.</h2>
+      <div class="row">
+        <div class="design col-lg-6">
+          <img src="images/blueprint.png" alt="blueprint-image" />
           <h3>Design</h3>
           <p>
-            Think of the design phase as the blueprints for your house. A wireframe, mockup, and prototype of the design gives you an idea of what is going to be done in the future.
+            Think of the design phase as the blueprints for your house. A wireframe, mockup, and prototype of the design
+            gives you an idea of what is going to be done in the future.
           </p>
         </div>
-        <div class="skill-row2">
-          <img class="develop" src="images/house.png" alt="house-image" />
+        <div class="develop col-lg-6">
+          <img src="images/house.png" alt="house-image" />
           <h3>Develop</h3>
           <p>
             Think of the develop phase as building your house and making sure
-            that everything is operational for you. The HTML is the structure, the CSS is the paint, and the JavaScript is the electricity.
+            that everything is operational for you. The HTML is the structure, the CSS is the paint, and the JavaScript
+            is
+            the electricity.
           </p>
         </div>
       </div>
-    <div class="bottom-container">
-      <h2>Get In Touch</h2>
-      <h3>Currently open for all projects.</h3>
-<br>
-      <a class="btn" href="mailto:bretth345@gmail.com">✉ MESSAGE ME</a>
-      <br>
-      <br>
-      <br>
-      <a class="footer-link" href="https://www.linkedin.com/in/brett-hanson-7966b288/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/bhanson345">GitHub</a>
-
-      <p>© 2020 Brett Hanson.</p>
     </div>
-  </body>
+  </section>
+  <!-- Work Section -->
+  <section id="work">
+    <div class="container-fluid">
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="fluid-container">
+    <h2>Get In Touch</h2>
+    <h3>Currently open for all projects.</h3>
+    <br>
+    <a class="btn" href="mailto:bretth345@gmail.com"><i class="far fa-envelope"></i> MESSAGE ME</a>
+    <br>
+    <br>
+    <br>
+    <a class="footer-link" href="https://www.linkedin.com/in/brett-hanson-7966b288/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/bhanson345">GitHub</a>
+
+    <p>© 2020 Brett Hanson.</p>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
