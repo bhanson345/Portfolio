@@ -149,6 +149,10 @@ footer {
     #work {
         margin-top: 2rem;
     }
+
+    #work h1 {
+        font-size: 3.2rem;
+    }
 }
 
 @media(max-width:1312px) {
