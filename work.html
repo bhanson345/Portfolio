@@ -19,10 +19,6 @@
 
 <body>
 
-
-
-
-
     <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -34,7 +30,7 @@
                     <a class="nav-link" href="index.html#skills">About<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#work">Work<span class="sr-only"></span></a>
+                    <a class="nav-link" href="work.html">Work<span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#footer">Contact<span class="sr-only"></span></a>
@@ -48,57 +44,280 @@
     <!-- Work Section -->
     <section id="work">
         <div class="container-fluid">
+
             <h1>Work I've Done</h1>
-            <div class="row">
-                <div class="work-card col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>TinDog</h3>
-                        </div>
-                        <img class="card-img-top" src="images/TinDog.png" alt="TinDog website">
-                        <div class="card-body">
-                            <p>Tinder for dogs</p>
-                            <p>HTML, CSS, Bootstrap, Jquery</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn" href="https://bhanson345.github.io/TinDog/"
-                                target="_blank">https://bhanson345.github.io/TinDog/</a>
+
+            <!-- Script Buttons -->
+            <div class="skill-buttons">
+                <div class="btn-group">
+
+                    <button id="button1" class="btn" onclick="togglediv('code')" type="button"> Code
+                    </button>
+
+                    <button id="button2" class="btn" onclick="togglediv('wordpress')" type="button"> WordPress
+                    </button>
+
+                    <button id="button3" class="btn" onclick="togglediv('prototype')" type="button"> Prototype</button>
+
+
+                </div>
+            </div>
+
+            <div id="code" class="skills" style="display:none">
+                <h2 id="skill-title">Code</h2>
+                <div class="row">
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>TinDog</h3>
+                            </div>
+                            <img class="card-img-top" src="images/TinDog.png" alt="TinDog website">
+                            <div class="card-body">
+                                <p>Tinder for dogs</p>
+                                <p>HTML, CSS, Bootstrap, Jquery</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://bhanson345.github.io/TinDog/" target="_blank">Demo</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="work-card col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Museum of Candy</h3>
-                        </div>
-                        <img class="card-img-top" src="images/Museum_of_Candy.png" alt="Museum of Candy website">
-                        <div class="card-body">
-                            <p>A colorful website made with Bootstrap</p>
-                            <p>HTML, CSS, Bootstrap, Jquery</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn" href="https://bhanson345.github.io/Museum-of-candy/"
-                                target="_blank">https://bhanson345.github.io/Museum-of-candy/</a>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Museum of Candy</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Museum_of_Candy.png" alt="Museum of Candy website">
+                            <div class="card-body">
+                                <p>A colorful website made with Bootstrap</p>
+                                <p>HTML, CSS, Bootstrap, Jquery</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://bhanson345.github.io/Museum-of-candy/"
+                                    target="_blank">Demo</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="work-card col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Pattern</h3>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Cubicle</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Cubicle.png" alt="Pattern website">
+                            <div class="card-body">
+                                <p>A site I made based on the Adobe XD mockup I created</p>
+                                <p>HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://bhanson345.github.io/Cubicle/" target="_blank">Demo</a>
+                            </div>
                         </div>
-                        <img class="card-img-top" src="images/Pattern.png" alt="Pattern website">
-                        <div class="card-body">
-                            <p>A simple site to showcase the Bootstrap framework</p>
-                            <p>HTML, Bootstrap</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn" href="https://bhanson345.github.io/Pattern/"
-                                target="_blank">https://bhanson345.github.io/Pattern/</a>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Pattern</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Pattern.png" alt="Pattern website">
+                            <div class="card-body">
+                                <p>A simple site to showcase the Bootstrap framework</p>
+                                <p>HTML, Bootstrap</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://bhanson345.github.io/Pattern/" target="_blank">Demo</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="wordpress" class="skills" style="display:none">
+                <h2 id="skill-title">WordPress</h2>
+                <div class="row">
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Claridge Law Firm</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Claridge.png" alt="Claridge Law Firm website">
+                            <div class="card-body">
+                                <p>Law Firm Website created with DIVI</p>
+                                <p>WordPress</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://www.claridgelawfirm.com/" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Seidler & Seidler, P.C.</h3>
+                            </div>
+                            <img class="card-img-top" src="images/seidler&seidler.png"
+                                alt="Seidler & Seidler, P.C. website">
+                            <div class="card-body">
+                                <p>Law Firm Website created with DIVI</p>
+                                <p>WordPress</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="https://www.seidler-seidler-law.com/" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Microwave Connection</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Microwave_Connect.png"
+                                alt="Microwave Connection website">
+                            <div class="card-body">
+                                <p>A microwave-convection cooking site</p>
+                                <p>WordPress, Adobe CC</p>
+                            </div>
+                            <div class="card-footer">
+                                <https: class="btn" href="https://www.microwaveconnect.com/" target="_blank">
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Different Strokes Painting</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Different_strokes_painting.png"
+                                alt="Different Strokes Painting website">
+                            <div class="card-body">
+                                <p>A site I made for a painting business in Minneapolis</p>
+                                <p>WordPress, Adobe CC</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn" href="http://differentstrokespainting.com/" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="prototype" class="skills" style="display:none">
+                <h2 id="skill-title">Prototype</h2>
+                <div class="row">
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Video Streaming Site</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Video_Streaming.png" alt="Video streaming website">
+                            <div class="card-body">
+                                <p>Prototype of a video streaming site</p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/46119982-1882-41be-8a30-a344fbcc1cf1-1342/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Meal Plan App</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Meal_Plan.png" alt="Meal plan app">
+                            <div class="card-body">
+                                <p>Prototype of a meal planning app</p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/fb1a05ea-1ce5-48bd-459d-c50be84105fa-8d2b/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Music App</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Streaming_App.png" alt="Music app">
+                            <div class="card-body">
+                                <p>Prototype of a music streaming app</p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/dc5ce37f-f358-4b6b-5e97-194eaefac4f9-aa6d/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Wine Store</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Wine_Store.png" alt="Wine website">
+                            <div class="card-body">
+                                <p>Prototype of a wine store homepage </p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/00e99b58-3859-412d-a9f6-6cff54847786-55ba/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Car site</h3>
+                            </div>
+                            <img class="card-img-top" src="images/AC_Motors.png" alt="Car website">
+                            <div class="card-body">
+                                <p>Prototype of a car dealer homepage </p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/8d28c023-61ad-4bb8-6f89-b855e6b68485-fb19/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Shoe Store</h3>
+                            </div>
+                            <img class="card-img-top" src="images/Icon_Shoe_Store.png" alt="Shoe website">
+                            <div class="card-body">
+                                <p>Prototype of a shoe store homepage </p>
+                                <p>Adobe XD</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn"
+                                    href="https://xd.adobe.com/view/8ee3ea70-4a53-468f-9716-8bf1773d0322-dbb0/?fullscreen"
+                                    target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- test -->
+
+
+
+
+
+
 
         </div>
     </section>
@@ -128,6 +347,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+
+    <!-- Show and hide div's on click -->
+    <SCRIPT>
+        function togglediv(id) {
+            document.querySelectorAll(".skills").forEach(function (div) {
+                if (div.id == id) {
+                    // Toggle specified Div
+                    div.style.display = div.style.display == "none" ? "block" : "none";
+                } else {
+                    // Hide other Div's
+                    div.style.display = "none";
+                }
+            });
+        }
+    </SCRIPT>
 </body>
 
 </html>
